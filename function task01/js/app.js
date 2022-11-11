@@ -1,9 +1,10 @@
 function firstFunc(arr, fn) {
 	let srt='New value:';
-	for (let i = 0; i < arr.length; i++) {
 
+	for (let i = 0; i < arr.length; i++) {
 	srt+= fn(arr[i]);
 	}
+
 	return srt;
 }
 
@@ -25,7 +26,7 @@ function handler3(el){
 console.log(firstFunc([{age: 45, name: 'Jhon'}, {age: 20, name: 'Aaron'}], handler3));
 
 function handler4(el) {
-return el.split("").reverse().join("");
+return el.split("").reverse().join("")+',';
 }
 
 console.log(firstFunc(['abs', '123'], handler4));
