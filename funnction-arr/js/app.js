@@ -99,5 +99,5 @@ function multiplyAll(arr) {
 	// Змініть код лише над цим рядком
 	return product;
  }
- 
+  
  multiplyAll([[1], [2], [3]])
