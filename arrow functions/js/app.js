@@ -64,3 +64,8 @@ const conve= num =>{
 	isOdd: Boolean(num % 2)
 	}};
 	console.log(conve(0.2));
+
+
+const colect = (x,y,z) => x*y*z;
+console.log(colect(10,10,10));
+
