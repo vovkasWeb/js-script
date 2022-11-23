@@ -7,3 +7,9 @@
   display: none;
   transition: 5s;
 }
+.contain {
+	max-width: 500px;
+	margin: 0 auto;
+ }
+
+ 
