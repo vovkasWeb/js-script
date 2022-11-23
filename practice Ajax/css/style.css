@@ -1,0 +1,9 @@
+/** @format */
+
+.card {
+  margin-top: 20px;
+}
+.card-body--active {
+  display: none;
+  transition: 5s;
+}
