@@ -88,4 +88,7 @@ getPosts(7)
   .then((post) => getPostComments())
   .then((data) => getUserCreatedPost(data))
   .then((fullData) => console.log(fullData))
-  .catch(err=> console.log(err));
+  .catch(err=> console.log(err))
+  .finally(()=>console.log('finally'));
+
+  
