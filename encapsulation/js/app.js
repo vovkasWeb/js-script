@@ -42,20 +42,24 @@
 
 //  const vova = new User('Vovka');
 //  vova.setName('viva');
-// //  vova.getName = function(){return"KKK"};
+//  vova.getName = function(){return"KKK"};
 //  console.log(vova.getName());
 
-function User(name) {
-	const symbol =Symbol();
-  return {
-	[symbol]: name,
-    getName() {
-      return this[symbol];
-    },
-    setName(name) {
-      this[symbol] = name;
-    },
-  };
-}
-const vova = new User('Vovka');
-console.log(vova);
+// function User(name) {
+// 	const symbol =Symbol();
+//   return {
+// 	[symbol]: name,
+//     getName() {
+//       return this[symbol];
+//     },
+//     setName(name) {
+//       this[symbol] = name;
+//     },
+//   };
+// }
+// const vova = new User('Vovka');
+// console.log(vova);
+
+import { getData } from "./module";
+
+console.log(getData());
